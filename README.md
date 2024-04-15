@@ -18,7 +18,10 @@ docker build --rm -t banking-system .
 docker run -p 3000:3000 banking-system
 ```
 
-Example
-```bash
-
-```
+## TODO
+* add account password (hash with bcrypt)
+* add fromAccountId & toAccountId to transaction model and relation place
+* add decimal handle (with bignumber.js)
+* apply account id to relation place
+* support for multi language 
+* use SQL db to persistence data
